@@ -19,7 +19,7 @@ public class Login extends JFrame implements ActionListener {
         setLocation(400,150);
         
         
-        // This is use to create a half color on frame diffrece;
+        // This is use to create a half color on frame diffrece ,go to hell
         p1 = new JPanel();
         p1.setBackground(new Color(131,193,233));
         p1.setBounds(0,0,300,400);
