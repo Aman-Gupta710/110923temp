@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+       <style>
+           .container{
+               width: 40%;
+               border: 1px solid black;
+               margin: auto;
+               padding: 20px;
+           }
+       </style>
+    </head>
+    <body>
+        
+        <div class = "container">
+            <h1>MY Form</h1>
+            
+            <form action="RegisterServlet" method="post">
+                <table>
+                    <tr>
+                        <td>Enter your name :</td>
+                        <td><input type="text" name="user_name" placeholder= "ENTER HERE"></td>
+                    <tr> 
+                        
+                     <tr>
+                         <td>Enter your Password : </td>
+                         <td><input type = "password" name = "user_password" placeholder="ENTER HERE"></td>
+                     </tr>
+                     
+                     <tr>
+                         <td>Enter Email :</td>
+                         <td><input type = "Email" name ="user_email" placeholder="ENTER HERE"></td>    
+                     </tr>    
+                     
+                     <tr>
+                         <td>Select Gender :</td>
+                         <td><input type ="radio" name = "user_gender" value="male">Male &nbsp; &nbsp; <input type="radio" name = "user_gender" value="female">Female</td>
+                     </tr>   
+                    
+                     <tr>
+                         <td>Select your Course</td>
+                         <td><select name="user_Course">
+                                 <option value="Java">Java</option>
+                                 <option value="python">python</option>
+                                 <option value="android">android</option>
+                                 <option value="Php">Php</option>
+                             </select>
+                         </td>
+                     </tr>
+                     
+                      <tr>
+                          <td style="text-align: right"><input type = "checkbox" value ="checked" name = "condition"></td>   
+                         <td> Agree Term & condition</td>
+                     </tr>   
+                     
+                      <tr>
+                         <td></td>
+                         <td>
+                             <button type="submit">Register</button> //register per click kerne per submit function kaam ker rha h
+                             <button type="Reset">Reset</button>     //Reset per click kerne per under vala Reset function kaam ker rha h
+                         </td>
+                     </tr>   
+                     
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
